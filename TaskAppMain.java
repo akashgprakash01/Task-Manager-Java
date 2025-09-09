@@ -5,8 +5,8 @@ public class TaskAppMain {
         TaskManager manager = new TaskManager();
 
         // Create Users
-        User u1 = new User(1, "Sakthi", "Developer", "sakthi@gmail.com");
-        User u2 = new User(2, "Murugan", "Tester", "murugan@gmail.com");
+        User u1 = new User(1, "Akash", "Developer", "akash@gmail.com");
+        User u2 = new User(2, "Prakash", "Tester", "prakash@gmail.com");
 
         manager.addUser(u1);
         manager.addUser(u2);
@@ -44,3 +44,4 @@ public class TaskAppMain {
         manager.showTasksByUser(u1);
     }
 }
+
